@@ -11,7 +11,6 @@ files=(
 	environment/codecs/gif.red
 	environment/codecs/jpeg.red
 	environment/codecs/png.red
-	modules/view/view.red
 	modules/view/backends/platform.red
 	modules/view/backends/gtk3/comdlgs.reds
 	modules/view/backends/gtk3/events.reds
