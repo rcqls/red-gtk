@@ -182,6 +182,7 @@ get-child-from-xy: func [
 ]
 
 get-text-size: func [
+	face    [red-object!] ; Change from red-gtk/063
 	str		[red-string!]
 	font	[red-object!]
 	pair	[red-pair!]
