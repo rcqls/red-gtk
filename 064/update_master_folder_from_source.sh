@@ -25,6 +25,7 @@ files=(
 	modules/view/backends/gtk3/para.reds
 	modules/view/backends/gtk3/text-box.reds
 	runtime/red.reds
+	runtime/definitions.reds
 	runtime/platform/image-gdk.reds
 	tests/gtk3/README.gtk3
 	tests/gtk3/react-test6-mini.red
