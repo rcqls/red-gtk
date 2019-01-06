@@ -1,14 +1,20 @@
 #!/bin/bash
+to=""
 
-to=../../red
+if [ "$1" = "" ];then 
+	to=../../red
+else
+	to="$1"
+fi
 
 files=(
+	compiler.r
 	build/includes.r 
 	environment/codecs/bmp.red
 	environment/codecs/gif.red
 	environment/codecs/jpeg.red
 	environment/codecs/png.red
-	modules/view/view.red
+	environment/console/CLI/console-view.red
 	modules/view/backends/platform.red
 	modules/view/backends/gtk3/comdlgs.reds
 	modules/view/backends/gtk3/events.reds
@@ -33,10 +39,15 @@ files=(
 	tests/gtk3/group-box-test.red
 	tests/gtk3/vid.red
 )
-echo $(pwd)
 
 for file in "${files[@]}";do
-	echo "gtk3/$file -> $to/$file"
-	mkdir -p $(dirname "$to/$file")
-	cp gtk3/$file $to/$file
+	if [ -e "master/$file" ]; then
+		echo "master/$file -> $to/$file"
+		mkdir -p $(dirname "$to/$file")
+		cp master/$file $to/$file
+	else
+		echo "gtk3/$file -> $to/$file"
+		mkdir -p $(dirname "$to/$file")
+		cp gtk3/$file $to/$file
+	fi
 done

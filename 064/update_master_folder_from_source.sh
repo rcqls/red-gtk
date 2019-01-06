@@ -6,6 +6,7 @@ cd $ici
 from=../source/red
 
 files=(
+	compiler.r
 	build/includes.r 
 	environment/codecs/bmp.red
 	environment/codecs/gif.red
