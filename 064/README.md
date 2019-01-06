@@ -2,7 +2,7 @@
 
 ### Files to update in master branch
 
-* `./update_master_folder.sh` updates `master` folder from `../master/red` containing last files of red/master branch
+* `./update_master_folder_from_source.sh` updates `master` folder from `../master/red` containing last files of red/master branch
 * `git status` shows if some files have changed in master
 * These files need to be updated in `gtk3` folder
 

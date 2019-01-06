@@ -1,9 +1,9 @@
 #!/bin/bash
 ici=$(pwd)
-cd ../master
+cd ../source
 git pull
 cd $ici
-from=../master/red
+from=../source/red
 
 files=(
 	build/includes.r 
