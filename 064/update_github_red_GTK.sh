@@ -8,6 +8,7 @@ else
 fi
 
 files=(
+	boot.red
 	compiler.r
 	build/includes.r 
 	environment/codecs/bmp.red
