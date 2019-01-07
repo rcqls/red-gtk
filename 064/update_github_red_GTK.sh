@@ -27,6 +27,7 @@ files=(
 	modules/view/backends/gtk3/font.reds
 	modules/view/backends/gtk3/gui.reds
 	modules/view/backends/gtk3/para.reds
+	modules/view/backends/gtk3/rules.red
 	modules/view/backends/gtk3/text-box.reds
 	runtime/red.reds
 	runtime/definitions.reds
