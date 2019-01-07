@@ -16,6 +16,7 @@ files=(
 	environment/codecs/jpeg.red
 	environment/codecs/png.red
 	environment/console/CLI/console-view.red
+	modules/view/VID.red
 	modules/view/backends/platform.red
 	modules/view/backends/gtk3/comdlgs.reds
 	modules/view/backends/gtk3/events.reds

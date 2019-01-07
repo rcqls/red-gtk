@@ -6,6 +6,7 @@ cd $ici
 from=../source/red
 
 files=(
+	boot.red
 	compiler.r
 	build/includes.r 
 	environment/codecs/bmp.red
@@ -13,6 +14,7 @@ files=(
 	environment/codecs/jpeg.red
 	environment/codecs/png.red
 	environment/console/CLI/console-view.red
+	modules/view/VID.red
 	modules/view/backends/platform.red
 	modules/view/backends/gtk3/comdlgs.reds
 	modules/view/backends/gtk3/events.reds
