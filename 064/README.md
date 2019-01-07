@@ -8,8 +8,6 @@
 
 ### Files specific to gtk branch
 
-These files can simply be copied in the developping `rcqls/red` GTK branch
-
-`./update_github_red_GTK.sh`
+These files can simply be copied in the developping a folder containing `red:master` branch. If `<red-folder>` is the name of this folder, `./update_github_red_GTK.sh <red-folder>` will update the folder with the GTK tools.
 
 
