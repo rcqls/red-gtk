@@ -19,3 +19,6 @@ To have a quick view of differences between files in master folder
 * `gtk3` and `master` subfolders: `./diff_gtk3_master.sh <relative path file in master folder>`
 * `gtk3` and `../source/red` subfolders: `./diff_gtk3_master.sh --source <relative path file in master folder>`
 
+## get list of files shared between GTK and master branch
+
+* `./get_shared_files_with_master.sh` generates the file `shared_files_red_master_and_gtk3.md`
