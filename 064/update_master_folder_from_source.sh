@@ -1,8 +1,14 @@
 #!/bin/bash
-ici=$(pwd)
+here=$(pwd)
 cd ../source
-git pull
-cd $ici
+if [ -d red ]; then
+	cd red
+	git pull
+else
+	git clone https://github.com/red/red.git
+fi
+
+cd $here
 from=../source/red
 
 files=(
